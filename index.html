@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Mass Index Calculator</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <header>Boday Mass Index Calculator</header>
+    <div id="container">
+      <form id="bmi1">
+        <label for="age">Enter your Age :</label>
+        <input type="number" placeholder="Enter your age" id="age" /><br />
+        <label>Enter your Weight :</label>
+        <input type="number" placeholder="Weigth in kgs" id="weight" /><br />
+        <label>Enter your Height :</label>
+        <input type="number" placeholder="Height in Feets" id="height" /><br />
+        <label>Gender :</label>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="age">Female</label>
+        <input type="radio" name="gender" id="other" value="other" />
+        <label for="other">Other</label>
+        <button type="button" id="button">Submit</button>
+        <button type="button" id="resetBtn">Reset</button>
+      </form>
+      <h2 id="teXt"></h2>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>
